@@ -20,7 +20,7 @@
             <Image Grid.RowSpan="5" VerticalOptions="End" Source="background.png" />
             <!-- #EA5220 -->
             <Grid Grid.Row="0" BackgroundColor="{Binding TemperatureColor}">                
-                <Label Grid.Row="0" Text="79°C" FontSize="100" 
+                <Label Grid.Row="0" Text="{Binding Temperature}" FontSize="100" 
                    VerticalOptions="CenterAndExpand" 
                    HorizontalOptions="CenterAndExpand" 
                    TextColor="White" />
